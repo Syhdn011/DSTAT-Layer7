@@ -1,0 +1,28 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for real-time session management and ranking reset.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "node-cron": "^3.0.2",
+    "path": "^0.12.7",
+    "telegraf": "^4.12.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Syhdn011/DSTAT-Layer7.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
