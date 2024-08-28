@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { Telegraf, Markup } = require('telegraf');
 const express = require('express');
 const fs = require('fs');
